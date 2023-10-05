@@ -1,0 +1,78 @@
+level 0:
+NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+
+level 1:
+flag file name is '-'
+filename must be prefixed with a path
+cat ./-
+rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+
+level 2:
+bandit2@bandit:~$ cat 'spaces in this filename' 
+aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
+
+level 3:
+file is hidden in directory
+bandit3@bandit:~$ ls -a  inhere/
+.  ..  .hidden
+bandit3@bandit:~$ cat inhere/.hidden 
+2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+
+level 4:
+loop through every file in the directory
+bandit4@bandit:~/inhere$ for file in *; do cat "./$file";echo; done
+�Ű��Bη���b<Q�Ƞ�+V�iO�1�[5{�
+jmD�B�0D�tQ*��)�A���V �]Ȕl�
+x(�z�.T26 F8qqlY���v�FN#��'~
+�E�Q�"�p�
+����4�}�]��G�A��u[�/9�
+�Mrj�S�r_E�,���G+�h|�+
+�=>KQ�
+2��]o-p8q�츑���D�
+                 .~�&ϯ"PT�I
+'�cwk^j�����M����;,��co�9
+lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+
+�׉ǰ�6=�>>�ӫ�w�<U'=�@��Z�xj
+�?3��[ٲN|?�G|b�G�[8�y�-�́*�
+                          ��
+level 5:
+file is: 1033 bytes, non executable, and human readable
+file size and execution ability is filtered with:
+find . -type f -size 1033c ! -executable
+bandit5@bandit:~$ find . -type f -size 1033c ! -executable -exec file {} + 
+./inhere/maybehere07/.file2: ASCII text, with very long lines (1000)
+bandit5@bandit:~$ cat ./inhere//maybehere07/.file2 
+P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+
+level 6:
+file is 33 bytes, owned by user and grou
+this can be filtered using the find command:
+find . -type f -size 33c -group bandit6 -user bandit7
+z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+
+level 7:
+flag is stored in large string file, beside word
+grep can be used to filter out for the line
+bandit7@bandit:~$ cat data.txt | grep "millionth"
+millionth	TESKZC0XvTetK0S9xNwm25STk5iWrBvP
+
+
+level 8:
+bandit8@bandit:~$ cat data.txt | sort | uniq -c | grep "1 "
+      1 EN632PlfYiZbn3PhVK3XOGSlNInNE00t
+
+level 9:
+cat data.txt | grep "==="
+
+level 10:
+data can be decoded simply
+bandit10@bandit:~$ cat data.txt | base64 -d
+The password is 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
+
+level 11:
+the data.txt contents can be rotated using tr
+bandit11@bandit:~$ cat data.txt | tr 'a-zA-Z' 'n-za-mN-ZA-M'
+The password is JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
+
+
