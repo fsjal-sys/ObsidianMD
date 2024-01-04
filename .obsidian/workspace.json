@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal/Foods.md",
+                "file": "Personal/Goals.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal/Foods.md",
+                "file": "Personal/Goals.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal/Foods.md",
+                "file": "Personal/Goals.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal/Foods.md"
+                "file": "Personal/Goals.md"
               }
             }
           }
@@ -146,8 +146,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8cea081b2b1ef588",
+  "active": "1377596627114949",
   "lastOpenFiles": [
+    "Personal/Finance",
+    "Personal/Learning and Memory",
+    "Personal/Articulation",
+    "Personal/Fitness",
+    "Personal/Foods.md",
+    "Personal/Goals.md",
     "Research/test",
     "Research/a.txt",
     "Research",
@@ -167,12 +173,8 @@
     "Research/OTWBandit/images",
     "Research/OTWBandit/OTWBandit.md.backup",
     "Research/OTWBandit/OTWBandit.md",
-    "Research/OTWBandit",
     "Research/Google Security Certificate/Foundations in Cybersecurity/course 1.md",
     "Research/Google Security Certificate/Foundations in Cybersecurity/Drawing 2023-08-28 14.17.07.excalidraw.md",
-    "Research/Google Security Certificate/Foundations in Cybersecurity",
-    "Research/Google Security Certificate",
-    "Research/CollatingDataFromMasscan/images",
     "Research/CollatingDataFromMasscan/CollatingDataFromMasscan.md",
     "Research/IndeedBot.md",
     "test/Google Security Certificate/Foundations in Cybersecurity/course 1.md",
@@ -181,8 +183,6 @@
     "test/OTWBandit/OTWBandit.md",
     "test/CollatingDataFromMasscan/CollatingDataFromMasscan.md",
     "test/IndeedBot.md",
-    "Personal/Goals.md",
-    "Personal/Foods.md",
     "Untitled.md"
   ]
 }
