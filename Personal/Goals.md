@@ -23,11 +23,3 @@ In order to increase articulation, you have to be comfortable with speech.
 1. Get a basic part-time job for the time being.
 	1. Apply on the same websites every morning.
 2. Adjust to life with a job.
-
-# Daily Routine
-1. Apply for jobs. 
-2. School responsibilities.
-3. Speech practice.
-4. Extra curricular research.
-5. Basic fitness.
-6. Stretching before bed.
