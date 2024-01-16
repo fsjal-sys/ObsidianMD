@@ -1,20 +1,3 @@
-## Summary
-- ### Computer Security Concepts
-	- Definition, Examples, Challenges
-- ### OSI Security Architecture
-- ### Security Attacks
-	- Passive Attacks, Active Attacks
-- ### Model for Network Security
-- ### Network Security Standards
-- ### Security Services
-	- Authentication, Access Control
-	- Data Confidentiality, Integrity, Availability
-	- Non-repudiation
-- ### Security Mechanisms
-- ### Attack Surfaces and Attack Trees
-
-<hr>
-
 # A Basic Introduction to Network Security
 
 ## What is Network Security?
