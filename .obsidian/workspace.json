@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Personal/Finance/Job Site Links.md",
+                "file": "4710/Lecture 1/Lecture 1 - Intro to Network Security.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1da835e38657bd4e",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Personal/Finance/Job Site Links.md",
+                "file": "4710/Lecture 1/Lecture 1 Revised.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Personal/Finance/Job Site Links.md",
+                "file": "4710/Lecture 1/Lecture 1 Revised.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Personal/Finance/Job Site Links.md"
+                "file": "4710/Lecture 1/Lecture 1 Revised.md"
               }
             }
           }
@@ -146,12 +147,49 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c9f63f5e3e452c20",
+  "floating": {
+    "id": "d9b269231a059931",
+    "type": "floating",
+    "children": [
+      {
+        "id": "21b09765ee8bdf48",
+        "type": "window",
+        "children": [
+          {
+            "id": "2e40436300b96d4d",
+            "type": "tabs",
+            "children": [
+              {
+                "id": "fb10e323ad47961c",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "4710/Lecture 1/Lecture 1 Revised.md",
+                    "mode": "source",
+                    "source": false
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "direction": "vertical",
+        "x": 640,
+        "y": 0,
+        "width": 640,
+        "height": 752,
+        "maximize": false,
+        "zoom": 0
+      }
+    ]
+  },
+  "active": "fb10e323ad47961c",
   "lastOpenFiles": [
-    "Personal/Daily Routine.md",
-    "Personal/Finance/Job Site Links.md",
     "4710/Lecture 1/Lecture 1 - Intro to Network Security.md",
     "4710/Lecture 1/Lecture 1 Revised.md",
+    "Personal/Finance/Job Site Links.md",
+    "Personal/Daily Routine.md",
     "4710/Lecture 1/Images/3.png",
     "4710/Lecture 1/Images/2.png",
     "4710/Lecture 1/Images/1.png",
