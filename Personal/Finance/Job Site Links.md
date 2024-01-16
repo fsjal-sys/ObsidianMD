@@ -1,0 +1,11 @@
+ Apply for part-time jobs
+	- Links:
+		- https://walmart.wd5.myworkdayjobs.com/en-US/WalmartExternal?locationCountry=a30a87ed25634629aa6c3958aa2b91ea&locationRegionStateProvince=218a720b28a74c67b5c6d42c00bdadfa&primaryLocation=2ff9989b58280101b1b1cab934220000&primaryLocation=19e6d88d9ebc0101b1aecd1b5ab10000
+		- https://careers.staples.ca/search
+		- https://careers.metro.ca/go/Grocery-Stores-Jobs/2639717/?q=&q2=&alertId=&locationsearch=&title=&shifttype=&location=&department= (Always check the Liberty Village location)
+		- Costco:
+			- https://cta.cadienttalent.com/index.jsp?LOCATION_ID=74412042896&INDEX=0&locale=en_US&SEQ=locationDetails&applicationName=CostcoCanadaNonReqExtCanada
+		- https://bestbuycanada.wd3.myworkdayjobs.com/en-US/BestBuyCA_Career/details/Learning-Experience-Specialist_R-35092?geotagText=CA/M1K%204L8/Scarborough&distance=677b3630ee5f01a5cd474fdbdb0725d4
+		- https://myview.wd3.myworkdayjobs.com/en-US/loblaw_careers?source=loblaw&utm_source=loblaw.ca&utm_medium=referral&geotagText=CA/M1K%204L8/Scarborough&distance=57678abbc1e2100019bca6b8ff230063
+		- https://careers.metro.ca/search/?searchby=distance&createNewAlert=false&q=&geolocation=M1K+-+Canada&d=75&lat=43.7298&lon=-79.2639&optionsFacetsDD_city=&optionsFacetsDD_shifttype=&optionsFacetsDD_department=
+		- https://jobs.tjx.com/global/en/search-results?keywords=&p=ChIJpTvG15DL1IkRd8S0KlBVNTI&location=Toronto,%20ON,%20Canada

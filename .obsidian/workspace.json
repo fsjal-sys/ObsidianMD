@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4710/Lecture 1/Lecture 1 - Intro to Network Security.md",
+                "file": "Personal/Finance/Job Site Links.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,8 +69,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "1da835e38657bd4e",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "4710/Lecture 1/Lecture 1 - Intro to Network Security.md",
+                "file": "Personal/Finance/Job Site Links.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "4710/Lecture 1/Lecture 1 - Intro to Network Security.md",
+                "file": "Personal/Finance/Job Site Links.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "4710/Lecture 1/Lecture 1 - Intro to Network Security.md"
+                "file": "Personal/Finance/Job Site Links.md"
               }
             }
           }
@@ -149,15 +148,19 @@
   },
   "active": "c9f63f5e3e452c20",
   "lastOpenFiles": [
+    "Personal/Daily Routine.md",
+    "Personal/Finance/Job Site Links.md",
+    "4710/Lecture 1/Lecture 1 - Intro to Network Security.md",
+    "4710/Lecture 1/Lecture 1 Revised.md",
+    "4710/Lecture 1/Images/3.png",
+    "4710/Lecture 1/Images/2.png",
     "4710/Lecture 1/Images/1.png",
     "4710/Lecture 1/Images",
     "4710/Lecture 1/New folder",
     "4710/Lecture 1 - Intro to Network Security.md",
-    "4710/Lecture 1/Lecture 1 - Intro to Network Security.md",
     "4710/Lecture 1",
     "4710/New folder",
     "4710",
-    "Personal/Daily Routine.md",
     "Personal/Goals.md",
     "Research/Supernova.md",
     "Research",
@@ -173,9 +176,6 @@
     "Research/SortingSubdomainsForMyUniversity/images/scanresults.png",
     "Research/SortingSubdomainsForMyUniversity/images/masscanstart.png",
     "Research/SortingSubdomainsForMyUniversity/images/masscandone.png",
-    "Research/SortingSubdomainsForMyUniversity/images/ipresolve.png",
-    "Research/SortingSubdomainsForMyUniversity/images/filteredips.png",
-    "Research/SortingSubdomainsForMyUniversity/images/domains.png",
     "Research/SortingSubdomainsForMyUniversity/SortingSubdomainsForMyUniversity.md",
     "Research/OTWBandit/OTWBandit.md",
     "Research/Google Security Certificate/Foundations in Cybersecurity/course 1.md",

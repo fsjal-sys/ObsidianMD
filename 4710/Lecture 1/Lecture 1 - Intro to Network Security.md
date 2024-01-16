@@ -9,14 +9,14 @@
 - ### Security Services
 	- Authentication, Access Control
 	- Data Confidentiality, Integrity, Availability
-	- Nonrepudiation
+	- Non-repudiation
 - ### Security Mechanisms
 - ### Attack Surfaces and Attack Trees
 
 <hr>
 
 ## Network Layers and Related Attacks
-When a system is being attacked, the attacks correspond with the network layers involved with the system. When we talk about network layers, we are referring to the classifications laid out by the **OSI Model** and the **TCP/IP Model**. The OSI model is a conceptual guideline for interpreting computer networking. When we analyze something in a computer which involves networking, we can refer to the OSI model or the TCP/IP Model to help us better understand it in more depth by figuring out which layer is in correspondence.
+When a system is being attacked, the attacks correspond with the network layers involved with the system. When we talk about network layers, we are referring to the classifications laid out by the **OSI Model** and the **TCP/IP Model**. The OSI model is a conceptual guideline for interpreting computer networking. When we analyse something in a computer which involves networking, we can refer to the OSI model or the TCP/IP Model to help us better understand it in more depth by figuring out which layer is in correspondence.
 
 The layers of the OSI Model and the TCP/IP Model are shown in the diagram below:
 ![[1.png]]
@@ -69,13 +69,130 @@ When the security of a system is breached, we will want to understand the impact
 	- An example might be a DDOS attack on the website of a large retailer such as Walmart. Suppose that this DDOS attack only effects the Walmart servers which are responsible for the online Walmart career applications. Walmart's most valuable assets are it's real estate, merchandise, etc. It isn't tied to the availability of a website. On top of that, Walmart can hire employees by hosting in-person hiring events so they do not need to rely solely on online applications for the purpose of acquiring new employees. This DDOS attack is also likely to be resolved appropriately as Walmart likely has an established cyber security team. The impact of this security breach does not severely effect the organization at all, thus it has a low impact.
 ## OSI Security Architecture
 The OSI Security Architecture defines a systematic approach to providing security at each layer of the OSI model. It involved defining **security services** and **security mechanisms** which can be present at each layer to provide effective security against attacks which occur in those respective layers.
-
-A **security attack** can be defined as any action which compromises the security of the information which is valued by an organization. **Security solutions** are the solutions that organizations can implement in order to curtail security attacks. Security solutions involve **security services** and **security solutions**. 
-- **Security Service:** The processing or communication service which enhances the security of the data processing systems and the information transfers of an organization. These services are intended to counter against security attacks.
-- **Security Mechanism:** The process that is designed to detect, prevent, or recover from a security attack. 
-
 #### Security Attacks
 As we defined it earlier, security attacks are basically any action which compromises the security of data which is valued by an organization. If there is an action which effects the confidentiality, integrity, availability, authenticity, and/or accountability of data which is valued by an organization, then we can confidently classify it as a security attack.
 
-Generally there are two sub-classifications of security attacks: **passive** and **active**. A **passive attack** is any action concerned with acquiring information from a system without directly affecting the system. Passive attacks can be a form of reconnaissance on a target, acquiring knowledge of a system's potential vulnerabilities prior to actively attacking the system. An **active attack** is such that attempts to actually alter the system resources. As opposed to a passive attack which would attempt to acquire knowledge about the vulnerabilities of a system, an active attack would involve the actual exploitation of those vulnerabilities.
+Generally there are two sub-classifications of security attacks: **passive** and **active**.
+
+A **passive attack** is any action concerned with acquiring information from a system without directly affecting the system. Passive attacks can be a form of reconnaissance on a target, acquiring knowledge of a system's potential vulnerabilities prior to actively attacking the system. 
+Thus we can say that passive attacks are in the nature of eavesdropping on or monitoring transmissions. The goal of the attacker when carrying out a passive attack is to obtain information that is being transmitted.
+Two types of passive attacks are the release of message contents and traffic analysis. When it comes to the release of message contents, an unauthorized party may conduct a passive attack when the exposure of the transmission contents are disclosed to that unauthorized party. Traffic analysis if another form of a passive attack which focuses more on observing patterns, volumes and the behaviours of data transmissions without necessarily understanding the specific message contents. So with the release of message contents, the attacker's main objective is to intercept and read the actual message contents being transmitted. With traffic analysis, the attacker's main objective is to derive meaningful information from the analysis of traffic patterns, such as identifying communication patterns, user behaviours, and/or system vulnerabilities.
+Specific techniques used in passive attacks are listed below:
+1. Eavesdropping
+	- The unauthorized interception of communications in order to read the actual contents of the message being transmitted i.e. the unauthorized release of of message contents.
+2. IP Spoofing
+     - The falsifying of the source address in a network packet to make it appear as if it originated from a source which it did not originally come from. 
+4. Packet Sniffing
+	- The capturing and analyzing of network packers in order to access and understand the data being transmitted. This can be thought of as a specific form of eavesdropping.
+5. Tapping
+	- The physical interception of actual communications cables or network devices in order to gain unauthorized access to the data that is being transmitted through those communications cables.
+6. Traffic Analysis
+	- The analysis of patterns in data transmissions to deduce information about the communications flow, even without understanding the actual content. More concerned with deriving information from how the content is presented.
+
+An **active attack** is such that attempts to actually alter the system resources. As opposed to a passive attack which would attempt to acquire knowledge about the vulnerabilities of a system, an active attack would involve the actual exploitation of those vulnerabilities.
+Unlike a passive attack, active attacks will always involve some kind of modification of the data stream or the creation of a false stream. These attacks are difficult to prevent due to the wide variety of possible attack surfaces and the wide variety of potential physical, software, and network vulnerabilities. 
+Some specific types of active attacks include:
+1. Masquerade
+    - A masquerade attack involves the attacker pretending to be someone who they actually are not, in order to somehow alter the system in unauthorized manner. 
+3. Replay
+	- A replay involves the passive capture of a data unit and its subsequent retransmission to produce and unauthorized effect onto the system.
+4. Modification of Messages
+	- The modification of messages occurs when some portion of a legitimate message is altered or messages are delayed or reordered to produce and unauthorized effect.
+5. Denial of Service
+    - The denial of service inhibits the normal use of a service on a network by diminishing its ability to communicate with users, usually through exhausting the network's capabilities.
+
+#### Security Services
+So we have established that a **security attack** can be defined as any action which compromises the security of the information which is valued by an organisation. **Security solutions** are the solutions that organisations can implement in order to curtail security attacks. Security solutions involve **security services** and **security mechanisms**. 
+- **Security Service:** The processing or communication service which enhances the security of the data processing systems and the information transfers of an organisation. These services are intended to counter against security attacks.
+- **Security Mechanism:** The process that is designed to detect, prevent, or recover from a security attack. 
+These security solutions are meant to be solutions to the problems posed by security threats and security attacks. As defined by the RFC 4949 document:
+- **Threat**: A potential violation of security which existed where there is a circumstance, capability, action, or event that could breach security and cause harm. A thread is a possible danger that might exploit a vulnerability.
+- **Attack**: An assault on system security that derives from an intelligent threat. An intelligent act that is a deliberate attempt to evade security services and violate the security policy of a system.
+
+A security service is a specific service deployed by an organisation to enhance the security on their network. Just like how networks have many services present within them, such as the HTTP service for providing access to webpages or the FTP service for providing means to transfer files, networks can also have security services which provide better security to the network.
+
+**The X.800 framework from the OSI Security Architecture** defines a security service as:
+- A service provided by a protocol layer of communicating open systems which ensures an adequate security of the systems or of the data transfers within an open systems network.
+- The OSI Model conceptualises a communications system as consisting of several layers. A security service is a dedicated feature within these layers which ensures that the systems and the data they transfer are adequately protected against unauthorised security attacks and their consequences.
+**The RFC 4949 document published by the IETF (Internet Engineering Task Force)** defines a security service as:
+- A processing or communication service which is provided by the system to give a specific kind of protection to system resources.
+- The RFC 4949 documents implies that security services are services that actively run on a network in order to safeguard the system resources.
+
+##### Security Services Categories
+Since there is a wide variety of potential network security risks, then there must also be a variety of security services to actively protect against these security risks. We can categorise security services as follows:
+1. Authentication
+2. Access Control
+3. Data Confidentiality
+4. Data Integrity
+5. Availability
+6. Nonrepudiation
+
+**Authentication**
+Authentication security services are concerned with the assurance that a communication within a network is authentic i.e. the message source is not obscured and is the true source. In the case of a single message, an authentication security service must assure the recipient that the message is from the source which the message claims to be from. In the case of an ongoing interaction, an authentication security service assures that the two entities are authentic and that the connection is not being interfered with by an unauthorised party. A third party cannot be allowed to masquerade as one of the two legitimate parties.
+
+**Access Control**
+Access control security services are committed to limiting and control the access to host systems and applications through communications links. To achieve this, each entity trying to gain access to a host must first be authenticated and have their access rights be tailored specifically based on the user's specific type of authorisation.
+
+**Data Confidentiality**
+Data confidentiality security services are meant to ensure the protection of transmitted data from passive attacks. A passive attack is an attack concerned with the unauthorised revealing or reading of data. A data confidentiality security service wants to make sure that the data is kept confidential so that it is only restricted to authorised parties. Data confidentiality security services can even prevent an attack from being unable to observe the source, destination, and other information regarding the traffic on a network.
+
+**Data Integrity**
+Data integrity security services ensure the integrity of data on their network. They make sure that the data on the network is not altered or modified by an unauthorised third party. This can apply to a stream of messages, a single message, or elected fields within a message. A **connection-oriented** integrity service deals with a stream of messages and assures that messaged are received as sent with no duplication, insertion, modification, rendering or replays. A **connectionless** integrity service deals with individual messages without regard to any larger context, protecting against message modification only.
+
+**Availability**
+Availability security services ensure that the property of a system or a system resource is made available to be accessed upon demand by an authorised system entity. A common attack which these services protect against are DDOS attacks.
+
+**Non-repudiation**
+Non-repudiation security services prevent either sender or receiver from denying a transmitted message. When a message is sent, the receiver can prove that the alleged sender did actually send that message. Likewise, the sender can prove that the recipient did actually receive the message.
+
+#### Security Mechanisms
+We have established that security services are meant to actively enhance the security of a system. However, these services must be implemented into the system in the first place. This is where the security mechanisms come into play, they are methods, tools, or processes which actually implement and enforce the security services. A particular security mechanism is capable of enforcing several security services. Think about how fast food is a service, and a fast food establishment consists of many different employees under different types of roles. These employees work to actually provide their respective fast food services. A cashier provides the service of transactions, allowing customers to make purchases. The fry cooks implement the creation of the menu items, allowing for the customers to be served. A security service is a broader security enhancement which must be implemented by a security mechanism. A particular security mechanism may implement or enforce several different security services. This is illustrated in the diagram below:
+![[2.png]]
+
+Security services and the security mechanisms which implement those services, are meant to ensure the security of a system from security threats and attacks. When designing a secure system, the security services and security mechanisms must be taken into account. The National Centres of Academic Excellence in Information Assurance/Cyber Defence, list the following as fundamental security design principles:
+- Economy of Mechanism
+- Fail-sage defaults
+- Complete mediation
+- Open design separation of privilege
+- Least privilege
+- Least common mechanism
+- Psychological acceptability
+- Isolation
+- Encapsulation
+- Modularity
+- Layering
+- Least astonishment
+These design principles limit the **attack surfaces** that will be present in a system. An attack surface is a reachable and exploitable vulnerability in a system. 
+
+Examples include: 
+- An open port on an outward facing web server is a surface which is made reachable to external users. This web server is a part of the organisation's network which is reachable, making it a potential attack surface. 
+- Services available on the inside of a firewall.
+- Code that processes incoming data, email, XLM, office documents, and industry-specific custom data exchange formats.
+- Interfaces SQL, and web forms.
+- An employee with access to sensitive information vulnerable to a social engineering attack.
+
+We can categorise attack surfaces:
+- **Network Attack Surface**: Attack surfaces which are reachable over an enterprise network, wide-area network, or the Internet.
+- **Software Attack Surface**: Attack surfaces which are reachable in the software of an organisation. These are vulnerabilities that exist in the applications, utilities, or operating system code.
+- **Human Attack Surface**: Attack surfaces which are reachable through the personnel associated with the organisation. These vulnerabilities include social engineering, human error, and trusted insiders.
+
+The risks involved with attack surfaces can depend on the layering implemented in a system. This is illustrated in he diagram below:![[3.png]]
+
+When a system is attacked, there is a sequence of actions that usually unfold relative to the particular scenario. An **attack tree** is used to portray these sequences by breaking down and analysing the different paths that an attacker might take to compromise a system or achieve a specific goal. 
+- Attack trees are represented by branching hierarchical data structures which showcase the **set of potential techniques for exploiting** security vulnerabilities.
+- The **security incident** is represented in an attack tree as the root node. A security incident is the goal of the attack.
+- The different ways that the attacker can reach that goal are iteratively and incrementally represented as branches and subnodes of the attack tree.
+- The final nodes on the oaths outward from the root, the leaf nodes, represent the different ways that the attacker may initiate the attack.
+- Branches can be labelled with values representing the difficulty, cost, or other attributes, so that alternative attacks can be compared.
+
+#### Security Standards
+The most popular sets of security standards include the NIST (National Institute of Standards and Technology) and ISOC (Internet Society) standards. 
+
+**NIST**:
+- NIST is a U.S. federal agency that deals with the measurement science, standards, and technology related to the U.S. government's uses and the promotion of U.S. private-sector innovation.
+- NIST Federal Information Processing Standards (FIPS) and Special Publications (SP) have a worldwide impact.
+**ISOC**:
+- ISOC is a professional membership society with worldwide organisational and individual membership.
+- Provides leadership in addressing issues that confront the future of the Internet and is home to the groups responsible for Internet infrastructure standards, including the IETF and the IAB.
+- ISOC publishes Internet standards and related specifications as RFS (Requests for Comments).
 
