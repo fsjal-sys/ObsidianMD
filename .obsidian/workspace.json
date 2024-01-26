@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "0/Daily Routine.md",
+                "file": "3040/Lecture 2/Lecture 2 Revised 1.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "1da835e38657bd4e",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "0/Daily Routine.md",
+                "file": "3040/Lecture 2/Lecture 2 Revised 1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "0/Daily Routine.md",
+                "file": "3040/Lecture 2/Lecture 2 Revised 1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "0/Daily Routine.md"
+                "file": "3040/Lecture 2/Lecture 2 Revised 1.md"
               }
             }
           }
@@ -148,27 +149,32 @@
   },
   "active": "c9f63f5e3e452c20",
   "lastOpenFiles": [
-    "0/Journal/January 16 2024.md",
-    "0/Daily Routine.md",
-    "0/Journal",
-    "4710/Lecture 1/Lecture 1 - Intro to Network Security.md",
-    "4710/Lecture 1/Lecture 1 Revised.md",
+    "3040/Lecture 2/Links.md",
+    "3040/Lecture 2/Lecture 2 Revised 1.md",
+    "3040/Lecture 2/Lecture 2 - Intro to Data Analytics.md",
     "0/Finance/Job Site Links.md",
+    "Research/Untitled.md",
+    "4710/Lecture 1/Lecture 1 - Intro to Network Security.md",
+    "3040/Lecture 3",
+    "3040/Lecture 2",
+    "3040/Lecture 1",
+    "3040",
+    "4710/Lecture 3",
+    "4710/Lecture 1/Lecture 3",
+    "4710/Lecture 2",
+    "4710/Lecture 2.md",
+    "0/Daily Routine.md",
+    "0/Journal/January 16 2024.md",
+    "0/Journal",
+    "4710/Lecture 1/Lecture 1 Revised.md",
     "4710/Lecture 1/Images/3.png",
     "4710/Lecture 1/Images/2.png",
     "4710/Lecture 1/Images/1.png",
     "4710/Lecture 1/Images",
     "4710/Lecture 1/New folder",
     "4710/Lecture 1 - Intro to Network Security.md",
-    "4710/Lecture 1",
-    "4710/New folder",
-    "4710",
     "0/Goals.md",
     "Research/Supernova.md",
-    "Research",
-    "0/Finance",
-    "0/Learning and Memory",
-    "0/Articulation",
     "Personal/Foods.md",
     "Research/SortingSubdomainsForMyUniversity/images/xmlopened.png",
     "Research/SortingSubdomainsForMyUniversity/images/sortIPoutput.png",
@@ -188,7 +194,6 @@
     "test/SortingSubdomainsForMyUniversity/SortingSubdomainsForMyUniversity.md",
     "test/OTWBandit/OTWBandit.md",
     "test/CollatingDataFromMasscan/CollatingDataFromMasscan.md",
-    "test/IndeedBot.md",
-    "Untitled.md"
+    "test/IndeedBot.md"
   ]
 }

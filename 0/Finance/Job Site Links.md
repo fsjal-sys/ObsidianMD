@@ -1,11 +1,11 @@
  Apply for part-time jobs
 	- Links:
-		- https://walmart.wd5.myworkdayjobs.com/en-US/WalmartExternal?locationCountry=a30a87ed25634629aa6c3958aa2b91ea&locationRegionStateProvince=218a720b28a74c67b5c6d42c00bdadfa&primaryLocation=2ff9989b58280101b1b1cab934220000&primaryLocation=19e6d88d9ebc0101b1aecd1b5ab10000
+		- https://walmart.wd5.myworkdayjobs.com/en-US/WalmartExternal?locationCountry=a30a87ed25634629aa6c3958aa2b91ea&locationRegionStateProvince=218a720b28a74c67b5c6d42c00bdadfa&primaryLocation=19e6d88d9ebc0101b1aecd1b5ab10000&primaryLocation=1644883b18d3011b31ca681047330000&primaryLocation=96ba263b8cda01a6bdb2e7f33d5aa4cf&primaryLocation=96ba263b8cda018aeb275af53d5ae4d1
 		- https://careers.staples.ca/search
 		- https://careers.metro.ca/go/Grocery-Stores-Jobs/2639717/?q=&q2=&alertId=&locationsearch=&title=&shifttype=&location=&department= (Always check the Liberty Village location)
 		- Costco:
 			- https://cta.cadienttalent.com/index.jsp?LOCATION_ID=74412042896&INDEX=0&locale=en_US&SEQ=locationDetails&applicationName=CostcoCanadaNonReqExtCanada
 		- https://bestbuycanada.wd3.myworkdayjobs.com/en-US/BestBuyCA_Career/details/Learning-Experience-Specialist_R-35092?geotagText=CA/M1K%204L8/Scarborough&distance=677b3630ee5f01a5cd474fdbdb0725d4
-		- https://myview.wd3.myworkdayjobs.com/en-US/loblaw_careers?source=loblaw&utm_source=loblaw.ca&utm_medium=referral&geotagText=CA/M1K%204L8/Scarborough&distance=57678abbc1e2100019bca6b8ff230063
+		- https://myview.wd3.myworkdayjobs.com/en-US/loblaw_careers?source=loblaw&utm_source=loblaw.ca&utm_medium=referral&locationRegionStateProvince=218a720b28a74c67b5c6d42c00bdadfa&locations=79f34988d10910f78f15f2f1809ab613&locations=016580ec70b042bd82f593be29615425&locations=fcdb95ca62ae01a8be6beb469a017170&locations=40e8a03c6b1a01cabe8a57b030243427&locations=e128c069551e1086c545657a9ea19d37
 		- https://careers.metro.ca/search/?searchby=distance&createNewAlert=false&q=&geolocation=M1K+-+Canada&d=75&lat=43.7298&lon=-79.2639&optionsFacetsDD_city=&optionsFacetsDD_shifttype=&optionsFacetsDD_department=
 		- https://jobs.tjx.com/global/en/search-results?keywords=&p=ChIJpTvG15DL1IkRd8S0KlBVNTI&location=Toronto,%20ON,%20Canada
