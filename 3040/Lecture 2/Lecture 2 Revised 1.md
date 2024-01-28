@@ -116,10 +116,42 @@ Suppose we have an attribute $X$ for the *Salary* of a data object *Employee*. L
 $$\bar{x} = {{\sum_{i=1}^{N}x_i} \over N} = {{x_1+x_2+...+x_N}\over{N}}$$
 The **mean** $\bar{x}$ is essentially the sum of all data values divided by the absolute value of all of the data values.
 
-Example:
-*Salary* $X$ is represented by the set $[30, 26, 47, 50, 52, 52, 56, 60, 70, 70, 110]$ where each integer represents the salary by each thousand.
-To calculate the mean $\bar{x}$, we will use the formula $\bar{x} = { \sum_{i=1}^{N}{x_i} \over {N}}$
+**_Example_**:
+Salary $X$ is represented by the set $[30, 36, 47, 50, 52, 52, 56, 60, 70, 70, 110]$ where each integer represents the salary by each thousand.
+To calculate the mean $\bar{x}$, we will use the formula $\bar{x} = { \sum_{i=1}^{N}{x_i} \over {N}}$.
 $$\sum_{i=1}^{N}{x_i} = 30 + 26 + 47 + 50 + 52 + 52 + 56 + 60 + 70 + 110 = 696$$
 $$N = 12$$
-$$\bar{x} = { \sum_{i=1}^{N}{x_i} \over {N}} = {696 \over 12} = 58$$Therefore, the mean salary is $58,000.
+$$\bar{x} = { \sum_{i=1}^{N}{x_i} \over {N}} = {696 \over 12} = 58$$Therefore, the mean salary is $58,000. 😏
 
+Although the mean is often the most useful measure for describing a dataset overall, it is not necessarily always the most useful for describing the **central tendency**. This is due to the sensitivity of the mean - any extreme values will easily throw off the value of the mean. To offset the effects of these outlier values, we can trim these values off to determine the **trimmed mean**. The **trimmed mean** is the mean value obtained from excluding the high and low extreme values.
+
+##### Median
+Not all data distributions are symmetric. Most real world data distributions are asymmetric, which means that they are skewed in either a positive or negative direction. If we are to measure the **central tendency**, then simply calculating the mean will not yield us the best information when the distribution is skewed. It is far better to calculate the **median**. The **median** is the middle value of the distribution when the set of values is **ordinal** i.e. the middle value when each value in the data set is ordered from least to greatest. When a data set contains an _odd_ number of values, then the median is simply the single middle value in the ordinal set. When a data set contains an *even* number of values, then the median is the average of the two middle values in the ordinal set.
+
+***Example***:
+In a small data set, the median can be easily determined. We will determine the median from the previous set of salaries.
+$[30, 36, 47, 50, 52, 52, 56, 60, 63, 70, 70, 110]$ 
+
+Since each value in the data set is already ordered, we can see that the middle values are $52$ and $56$. The median would be the average of these two values: $$median = {{52+56}\over{2}} = 108 \div 2 = 54$$
+Let's remove $110$ from this data set, now we have the data set $[30, 36, 47, 50, 52, 52, 56, 60, 63, 70, 70]$. This data set has an *odd* number of values, so the median is the single middle value in this ordinal set, $median = 52$. 😏
+
+A lot of data sets contain a large amount of data values. If we were to calculate the median of a data set with hundreds of values, then ordering every value and looking for the middle values would be a very tedious process. Instead, large data sets are often grouped by frequencies.
+
+***Example***:
+
+| Age | Frequency |
+| ---- | ---- |
+| 1 - 5 | 200 |
+| 6 - 15 | 450 |
+| 16 - 20 | 300 |
+| 21 - 50 | 1500 |
+| 51 - 80 | 700 |
+| 81 - 110 | 44 |
+In this data set, we have more than one thousand total values. 200 of these values are between 1 and 5, 450 are between 6 and 15, 300 are between 16 and 20, etc.
+
+To calculate the median from this table of grouped data values, we can use the following formula: $$median = L_1 + ({{N \over 2} - (\sum{freq})_1 \over {freq_{median}}})width$$
+$L_1$ represents the lower boundary of the median interval.
+$N$ represents the number of values in the entire data set.
+$(\sum{freq})_1$ represents the sum of the frequencies of all of the intervals that are lower than the median interval.
+$freq_{median}$ represents the frequency of the median interval.
+$width$ represents the width of the median interval.
